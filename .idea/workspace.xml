@@ -18,13 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a263f0-9729-484b-88fa-b2fdcebfd2c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/deitel/twittersearches/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/deitel/twittersearches/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/tmp/dex/debug/inputList.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/deitel/twittersearches/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/deitel/twittersearches/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter-searches.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,12 +76,37 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/deitel/twittersearches/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44279662" vertical-offset="0" max-vertical-offset="4617">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.33860046" vertical-offset="1731" max-vertical-offset="4503">
+              <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
               <folding>
-                <element signature="e#6158#8624#0" expanded="true" />
-                <element signature="e#8583#8584#0" expanded="true" />
+                <element signature="e#3267#3296#0" expanded="true" />
+                <element signature="e#4081#4104#0" expanded="true" />
+                <element signature="e#4227#4238#0" expanded="true" />
+                <element signature="method#addTaggedSearch#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#5362#6104#0" expanded="true" />
+                <element signature="e#6097#6098#0" expanded="true" />
+                <element signature="e#6309#8775#0" expanded="true" />
+                <element signature="e#6867#6912#0" expanded="true" />
+                <element signature="e#8206#8232#0" expanded="true" />
+                <element signature="e#8734#8735#0" expanded="true" />
+                <element signature="e#9007#9036#0" expanded="true" />
+                <element signature="e#9295#9327#0" expanded="true" />
+                <element signature="e#9386#9429#0" expanded="true" />
+                <element signature="e#9586#9617#0" expanded="true" />
+                <element signature="e#9946#9985#0" expanded="true" />
+                <element signature="e#10076#10102#0" expanded="true" />
+                <element signature="e#10509#10535#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.56" vertical-offset="0" max-vertical-offset="551">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -811,6 +832,8 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/deitel/twittersearches/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -863,6 +886,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter-searches" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -880,6 +925,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="twittersearches" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter-searches" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1209,13 +1264,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.56" vertical-offset="0" max-vertical-offset="551">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/deitel/twittersearches/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44279662" vertical-offset="0" max-vertical-offset="4617">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.33860046" vertical-offset="1731" max-vertical-offset="4503">
+          <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
           <folding>
-            <element signature="e#6158#8624#0" expanded="true" />
-            <element signature="e#8583#8584#0" expanded="true" />
+            <element signature="e#3267#3296#0" expanded="true" />
+            <element signature="e#4081#4104#0" expanded="true" />
+            <element signature="e#4227#4238#0" expanded="true" />
+            <element signature="method#addTaggedSearch#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#5362#6104#0" expanded="true" />
+            <element signature="e#6097#6098#0" expanded="true" />
+            <element signature="e#6309#8775#0" expanded="true" />
+            <element signature="e#6867#6912#0" expanded="true" />
+            <element signature="e#8206#8232#0" expanded="true" />
+            <element signature="e#8734#8735#0" expanded="true" />
+            <element signature="e#9007#9036#0" expanded="true" />
+            <element signature="e#9295#9327#0" expanded="true" />
+            <element signature="e#9386#9429#0" expanded="true" />
+            <element signature="e#9586#9617#0" expanded="true" />
+            <element signature="e#9946#9985#0" expanded="true" />
+            <element signature="e#10076#10102#0" expanded="true" />
+            <element signature="e#10509#10535#0" expanded="true" />
           </folding>
         </state>
       </provider>
