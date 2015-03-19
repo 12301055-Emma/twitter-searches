@@ -81,7 +81,7 @@ public class MainActivity extends ListActivity
             tagEditText.getText().length() > 0)
          {
             String fullURL = getString(R.string.searchURL) +
-                     Uri.encode(queryEditText.getText().toString(), "UTF-8");
+                    Uri.encode(queryEditText.getText().toString(), "UTF-8");
             addTaggedSearch(fullURL,tagEditText.getText().toString());
             queryEditText.setText(""); // clear queryEditText
             tagEditText.setText(""); // clear tagEditText
@@ -137,7 +137,7 @@ public class MainActivity extends ListActivity
          String tag = ((TextView) view).getText().toString();
          //String urlString = getString(R.string.searchURL) +
          //   Uri.encode(savedSearches.getString(tag, ""), "UTF-8");
-         String urlString = savedSearches.getString(tag, "");
+          String urlString=savedSearches.getString(tag, "");
          // create an Intent to launch a web browser    
          Intent webIntent = new Intent(Intent.ACTION_VIEW, 
             Uri.parse(urlString));                      

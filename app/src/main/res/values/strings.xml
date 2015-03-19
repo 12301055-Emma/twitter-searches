@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">New Twitter Searches</string>
-	<string name="searchURL">http://m.flckr.com/#/search/</string>
+	<string name="app_name">New Favorite Web searches</string>
+	<string name="searchURL">http://</string>
 	<string name="tagPrompt">Tag your query</string>
-	<string name="queryPrompt">Enter NEW Twitter search query here</string>
+	<string name="queryPrompt">Enter URL here(NOT include http://)</string>
 	<string name="taggedSearches">NEW Tagged Searches</string>
 	<string name="saveDescription">Touch this button to save your tagged search</string>
 	<string name="shareEditDeleteTitle">Share, Edit or Delete the search tagged as \"%s\"</string>
